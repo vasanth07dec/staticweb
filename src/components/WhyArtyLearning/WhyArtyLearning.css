@@ -1,0 +1,43 @@
+.WhyArtyLearning{
+    width: 1120px;
+    margin: auto;
+    height: 775px;
+    display: flex;
+    padding: 100px 20px;
+    justify-content: flex-end;
+}
+.innerbox{
+    /* width: 865px;
+    height: 575px; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 60px 80px 240px;
+    border-right-color: rgb(0, 0, 0);
+    border-right-style: solid;
+    border-right-width: 6px;
+    border-top-color: rgb(0, 0, 0);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-style: solid;
+    border-top-width: 6px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.innerbox h1{
+    margin-bottom: 50px;
+}
+.innerbox p:nth-child(3){
+    margin-bottom: 50px;
+}
+
+.innerbox:after{
+    background-image: url('https://artylearning.com.sg/wp-content/uploads/2023/06/IMG_4168-1536x2048.jpg');
+    background-size: cover;
+    position: absolute;
+    left: -40px;
+    top: 0;
+    bottom: 0;
+}

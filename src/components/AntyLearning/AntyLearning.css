@@ -1,0 +1,56 @@
+.antylearning-main {
+  width: 1120px;
+  height: 100vh;
+  display: flex;
+  gap: 32px;
+  margin: auto;
+  padding: 100px 20px;
+}
+
+.antylearning-main section img {
+  width: 514px;
+  height: 514px;
+  object-fit: cover;
+  border-right-color: rgb(0, 0, 0);
+  border-right-style: solid;
+  border-right-width: 6px;
+  border-top-color: rgb(0, 0, 0);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top-style: solid;
+  border-top-width: 6px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.title {
+  font-size: 48px;
+  color: rgb(17, 24, 39);
+  margin-bottom: 20px;
+}
+.sub-title {
+  color: #6b6868;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.learnmore{
+  padding: 14px 24px;
+  background: transparent;
+  border: 1px solid red;
+  font-size: 20px;
+  font-weight: 500;
+  color: red;
+}
+
+.antylearning-main section button:hover {
+  background: red;
+  color: white;
+}
+.special-para{
+color: rgb(55, 65, 81);
+}

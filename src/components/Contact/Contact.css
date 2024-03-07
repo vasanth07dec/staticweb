@@ -1,0 +1,25 @@
+.contact{
+    background: black;
+    color: white;
+    padding: 8px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.contact-details{
+    display: flex;
+    gap: 20px;
+}
+
+.contact-details a{
+    color: white;
+}
+
+.icon{
+    background: white;
+    color: red;
+    font-size: 28px;
+    margin-left: 8px;
+}
